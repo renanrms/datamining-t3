@@ -1,0 +1,31 @@
+{
+    "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
+    "version": "0.2",
+    "language": "en,pt-BR",
+    "ignorePaths": [],
+    "dictionaryDefinitions": [],
+    "dictionaries": [],
+    "useGitignore": true,
+    "words": [
+        "datahora",
+        "datahoraenvio",
+        "datahoraservidor",
+        "datamining",
+        "geopandas",
+        "ipykernel",
+        "overfitting",
+        "postgis",
+        "psycopg2",
+        "pycache",
+        "renanrms",
+        "toarray",
+        "vmax",
+        "xlabel",
+        "xticklabels",
+        "xticks",
+        "ylabel",
+        "yticklabels"
+    ],
+    "ignoreWords": [],
+    "import": []
+}

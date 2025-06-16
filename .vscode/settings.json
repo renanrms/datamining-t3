@@ -1,0 +1,31 @@
+{
+  // Configurações de identação
+  // "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  // "editor.detectIndentation": false,
+  "editor.guides.indentation": true,
+  "editor.guides.bracketPairs": true,
+  "editor.autoClosingBrackets": "always",
+  "editor.autoClosingQuotes": "always",
+  "editor.autoIndent": "full",
+
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": false,
+  "editor.formatOnType": false,
+
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+
+  "[python]": {
+    // "editor.tabSize": 2,
+    "editor.defaultFormatter": "ms-python.autopep8"
+  },
+
+  "[jupyter]": {
+    "editor.defaultFormatter": "ms-python.autopep8"
+  },
+
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  }
+}
