@@ -20,7 +20,7 @@ def plot_bus_route(gdf):
     avg_lon = gdf["geom"].x.mean()
     m = folium.Map(
         location=[avg_lat, avg_lon],
-        zoom_start=13,
+        zoom_start=12,
         tiles='OpenStreetMap',
         control_scale=True
     )

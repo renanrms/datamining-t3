@@ -10,6 +10,7 @@ dependencies = [
     "sqlalchemy>=2.0.41",
     "matplotlib>=3.10.3",
     "folium>=0.20.0",
+    "selenium>=4.33.0",
 ]
 requires-python = "==3.10.*"
 readme = "README.md"
