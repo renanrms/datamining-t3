@@ -4,12 +4,12 @@ CREATE TABLE IF NOT EXISTS tracking (
     id SERIAL PRIMARY KEY,
     ordem text COLLATE pg_catalog."default",
     geom GEOGRAPHY(POINT, 4326),
-    datahora TIMESTAMP NOT NULL,
     velocidade FLOAT,
     linha text COLLATE pg_catalog."default",
+    datahora TIMESTAMP NOT NULL,
     datahoraenvio TIMESTAMP,
     datahoraservidor TIMESTAMP
-);
+) PARTITION BY RANGE (datahoraservidor);
 
 
 CREATE INDEX IF NOT EXISTS idx_tracking_ordem ON tracking(ordem);
