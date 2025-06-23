@@ -20,6 +20,10 @@ O desafio deste trabalho é prever a localização de um ônibus em dado horári
 sudo docker compose up
 ```
 
+### Input de dados
+
+os arquivos devem estar na pasta `/input/final`, `/input/treino` e `/input/teste`.
+
 ### Preparação do ambiente Python
 
 Certifique-se de ter o Pyhton e o Pypi instalados.
@@ -38,4 +42,4 @@ pdm install
 
 ### Execução
 
-Abra o arquivo Jupyter Notebook, `solution.py` e o execute. Ele deve estar apontando para o ambiente local.
+Abra os arquivo Jupyter Notebook, na pasta `/src/notebooks` e o execute-os. Eles deve estar apontando para python o ambiente local no virtual env.
